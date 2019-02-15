@@ -68,7 +68,7 @@ merged_array = array1
   merged_array.each do |merged_items|
     array2.each do |item|
       item.each do |name, attributes|
-        if merged_items == 
+        if merged_items ==
       binding.pry
 
 
