@@ -76,3 +76,7 @@ merged_array = array1
   end
 merged_array
 end
+
+def find_cool(temp)
+
+end
