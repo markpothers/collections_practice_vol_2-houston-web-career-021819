@@ -99,7 +99,7 @@ organized_schools = {}
     organized_schools[location[:location]] << type
 
   end
-puts organized_schools
+organized_schools
 end
 
 
