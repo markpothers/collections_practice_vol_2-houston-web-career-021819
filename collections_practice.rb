@@ -81,12 +81,12 @@ def find_cool(cool)
   cool_array = []
     cool.each do |item|
       item.each do |attribute, value|
-        binding.pry
-    if value == cool
+    if value == "cool"
           cool_array << item
         end
       end
     end
+    binding.pry
 
 puts  cool_array
 end
@@ -102,4 +102,4 @@ cool =  [
       }
   ]
 
-find_cool("cool")
+find_cool(cool)
