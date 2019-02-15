@@ -60,8 +60,6 @@ array_with_count = array.uniq
 array_with_count
 end
 
-
-
 def merge_data(array1, array2)
 merged_array = array1
 
@@ -71,7 +69,6 @@ merged_array = array1
       if merged_items[:first_name] == name
           attributes.each do |attribute, value|
             merged_items[attribute] = value
-  #          binding.pry
         end
         end
       end
@@ -79,31 +76,3 @@ merged_array = array1
   end
 merged_array
 end
-
-keys = [
-      {
-          :first_name => "blake",
-               :motto => "Have a koala-ty day!"
-      },
-      {
-          :first_name => "ashley",
-               :motto => "I dub thee, 'Lady Brett Ashley'."
-      }
-  ]
-
-data = [
-         {
-           "blake" => {
-              :awesomeness => 10,
-                   :height => "74",
-                :last_name => "johnson"
-          },
-          "ashley" => {
-              :awesomeness => 9,
-                   :height => 60,
-                :last_name => "dubs"
-          }
-      }
-  ]
-
-merge_data(keys, data)
