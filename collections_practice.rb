@@ -79,8 +79,14 @@ end
 
 def find_cool(cool)
   cool_array = []
-
-
+    cool.each do |item|
+      item.each do |attribute, value|
+        if value == cool
+          cool_array << item
+        end
+      end
+    end
+    
 binding.pry
 puts  cool_array
 end
