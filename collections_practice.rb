@@ -95,12 +95,11 @@ organized_schools = {}
     organized_schools[location[:location]] = []
   end
   schools.each do |type, location|
-    binding.pry
 
     organized_schools[location[:location]] << type
 
   end
-organized_schools
+puts organized_schools
 end
 
 
