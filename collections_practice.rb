@@ -63,5 +63,9 @@ end
 
 
 def merge_data(array1, array2)
-  array1.concat(array2)
+merged_array = []
+
+
+
+puts merged_array
 end
