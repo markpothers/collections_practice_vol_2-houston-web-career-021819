@@ -72,8 +72,8 @@ merged_array = array1
 
         if merged_items ==
 
-
-            end
+        end
+      end
     end
   end
 
