@@ -92,7 +92,7 @@ end
 def organize_schools(schools)
 organized_schools = {}
   schools.each do |type, location|
-    organized_schools[location] = []
+    organized_schools[location[:location]] = []
     binding.pry
   end
   schools.each do |type, location|
