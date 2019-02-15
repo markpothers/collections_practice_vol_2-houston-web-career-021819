@@ -73,10 +73,9 @@ merged_array = array1
         if
 
         end
-      end
+      
     end
   end
-
 puts merged_array
 end
 
