@@ -89,15 +89,3 @@ def find_cool(cool)
 cool_array
 end
 
-cool =  [
-          {
-                 :name => "ashley",
-          :temperature => "sort of cool"
-      },
-          {
-                 :name => "blake",
-          :temperature => "cool"
-      }
-  ]
-
-#find_cool(cool)
