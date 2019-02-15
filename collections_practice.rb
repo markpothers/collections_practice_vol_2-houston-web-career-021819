@@ -77,7 +77,7 @@ merged_array = array1
       end
     end
   end
-puts merged_array
+merged_array
 end
 
 keys = [
