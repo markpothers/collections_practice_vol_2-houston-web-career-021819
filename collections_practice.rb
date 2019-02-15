@@ -93,8 +93,8 @@ def organize_schools(schools)
 organized_schools = {}
   schools.each do |type, location|
     organized_schools[location] = []
+    binding.pry
   end
-binding.pry
   schools.each do |type, location|
     organized_schools[location] << type
 
