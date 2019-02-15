@@ -63,10 +63,14 @@ end
 
 
 def merge_data(array1, array2)
-merged_array = []
+merged_array = array1
 
+  array2.each do |item|
 
-binding.pry
+    binding.pry
+
+  end
+
 puts merged_array
 end
 
