@@ -97,7 +97,7 @@ organized_schools = {}
   schools.each do |type, location|
     binding.pry
 
-    organized_schools[location] << type
+    organized_schools[location[:location]] << type
 
   end
 organized_schools
