@@ -66,7 +66,7 @@ def merge_data(array1, array2)
 merged_array = []
 
 
-
+binding.pry
 puts merged_array
 end
 
@@ -95,3 +95,5 @@ data = [
           }
       }
   ]
+
+merged_data(keys, data)
