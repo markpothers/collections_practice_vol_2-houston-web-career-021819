@@ -70,7 +70,7 @@ merged_array = array1
       item.each do |name, attributes|
         binding.pry
 
-        if merged_items ==
+        if
 
         end
       end
