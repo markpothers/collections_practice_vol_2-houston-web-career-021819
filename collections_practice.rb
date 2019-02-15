@@ -77,6 +77,23 @@ merged_array = array1
 merged_array
 end
 
-def find_cool(temp)
+def find_cool(cool)
+  cool_array = []
 
+
+binding.pry
+puts  cool_array
 end
+
+cool =  [
+          {
+                 :name => "ashley",
+          :temperature => "sort of cool"
+      },
+          {
+                 :name => "blake",
+          :temperature => "cool"
+      }
+  ]
+
+find_cool(cool)
