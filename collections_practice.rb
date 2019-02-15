@@ -69,7 +69,7 @@ merged_array = array1
     array2.each do |item|
       item.each do |name, attributes|
         binding.pry
-      if merged_items[:firstname] == name
+      if merged_items[:first_name] == name
           attributes.each do |attribute, value|
             merged_items[attribute] = value
           end
