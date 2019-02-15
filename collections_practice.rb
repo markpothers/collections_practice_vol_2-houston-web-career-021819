@@ -86,7 +86,7 @@ def find_cool(cool)
         end
       end
     end
-    
+
 binding.pry
 puts  cool_array
 end
