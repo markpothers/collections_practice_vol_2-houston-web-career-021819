@@ -88,4 +88,3 @@ def find_cool(cool)
     end
 cool_array
 end
-
