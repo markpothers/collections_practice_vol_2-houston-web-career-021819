@@ -94,6 +94,7 @@ organized_schools = {}
   schools.each do |type, location|
     organized_schools[location] = []
   end
+binding.pry
   schools.each do |type, location|
     organized_schools[location] << type
 
