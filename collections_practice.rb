@@ -98,7 +98,6 @@ organized_schools = {}
     organized_schools[location] << type
 
   end
-binding.pry
 puts organized_schools
 end
 
