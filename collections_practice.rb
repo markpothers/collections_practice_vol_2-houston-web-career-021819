@@ -71,7 +71,7 @@ merged_array = array1
       if merged_items[:first_name] == name
           attributes.each do |attribute, value|
             merged_items[attribute] = value
-            binding.pry
+  #          binding.pry
         end
         end
       end
