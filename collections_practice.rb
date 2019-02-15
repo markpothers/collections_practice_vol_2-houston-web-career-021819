@@ -95,33 +95,7 @@ organized_schools = {}
     organized_schools[location[:location]] = []
   end
   schools.each do |type, location|
-
     organized_schools[location[:location]] << type
-
   end
 organized_schools
 end
-
-
-schools =     {
-      "flatiron school bk" => {
-        :location => "NYC"
-      },
-      "flatiron school" => {
-        :location => "NYC"
-      },
-      "dev boot camp" => {
-        :location => "SF"
-      },
-      "dev boot camp chicago" => {
-        :location => "Chicago"
-      },
-      "general assembly" => {
-        :location => "NYC"
-      },
-      "Hack Reactor" => {
-        :location => "SF"
-      }
-    }
-
-    organize_schools(schools)
